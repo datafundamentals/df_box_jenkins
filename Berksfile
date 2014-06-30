@@ -1,6 +1,7 @@
-site :opscode
+source "https://api.berkshelf.com"
 
 metadata
+
 cookbook "df_ruby", git: "https://github.com/datafundamentals/df_ruby"
 cookbook "df_java", git: "https://github.com/datafundamentals/df_java"
 cookbook "df_git", git: "https://github.com/datafundamentals/df_git"
